@@ -1,0 +1,78 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/stylesheet/style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+     <title> Block-3 | Flexbox</title>
+ </head>
+ <body>
+   <header>
+       <div class = "container">
+           <div class ="brand-name">
+            <img src="assets/media/brand.png" alt="brand logo">
+           </div>
+           <div class = "navigation">
+               <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+               </nav>
+           </div>
+       </div>
+
+   </header>  
+   <main>
+       <article class = "article container">
+           <div class="text">
+              <h1>
+                Lorem Ipsum
+              </h1>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto nisi quia.
+                   Illum facere aspernatur autem aperiam aut cupiditate veritatis, 
+                  numquam, harum nisi culpa mollitia saepe quaerat esse corporis dicta.
+              </p>
+           </div>
+           <div class = "image">
+            <img src ="assets/media/bridge.jpg" alt = "bridge">
+           </div>
+       </article>
+       <settion class="gallery container">
+           <div class="picture"><img src ="assets/media/nature1.jpg" alt = "nature1"></div>
+           <div class="picture"><img src ="assets/media/nature2.jpg" alt = "nature2"></div>
+           <div class="picture"><img src ="assets/media/nature3.jpg" alt = "nature3"></div>
+           <div class="picture"><img src ="assets/media/nature4.jpg" alt = "nature4"></div>
+           <div class="picture"><img src ="assets/media/nature5.jpg" alt = "nature5"></div>
+           <div class="picture"><img src ="assets/media/nature6.jpg" alt = "nature6"></div>
+       </settion>
+   </main>
+   <footer class ="container">
+       <small>&copy; 2020 My Blog</small>
+       <div class = "navigation">
+           <a href = "#"><i class="fab fa-facebook-f"></i></a>
+           <a href = "#"><i class="fab fa-twitter"></i></a>
+           <a href = "#"><i class="fab fa-instagram"></i></a>
+           <a href = "#"><i class="fab fa-pinterest-square"></i>    </a>
+       </div>
+    
+   </footer>
+ </body>
+ </html>
