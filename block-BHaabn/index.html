@@ -1,0 +1,68 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Assignment-I | Flexbox</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading container">
+            <div class="logo">
+                <a href="#">
+                <img src="assets/media/altcampus1.png" alt="logo">
+            </a>
+            </div>
+
+            <div class="navigation">
+                <a href="#">home</a>
+                <a id="gallery-color" href="#">gallery</a>
+                <a href="#">about</a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article class="gallery container">
+            <h1 class="gallery-heading  container">Gallery</h1>
+            <div class="gallery-section">
+                <img class="photo-img" src="assets/media/01.png" alt="painting1">
+                <img class="photo-img" src="assets/media/02.png" alt="painting2">
+                <img class="photo-img" src="assets/media/03.png" alt="painting3">
+                <img class="photo-img" src="assets/media/04.png" alt="painting4">
+                <img class="photo-img" src="assets/media/05.png" alt="painting5">
+                <img class="photo-img photo-img-small" src="assets/media/06.png" alt="painting6">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="container footer">
+        <div class="copyright">
+            <small>&copy; AltCampus</small>
+        </div>
+        <div class="navigation">
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>
